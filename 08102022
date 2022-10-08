@@ -1,0 +1,123 @@
+books = {"maths":4,"science":8,"arts":12,"social studies":5}
+lended_books = {"ayushi":"maths"}
+
+print("~~~~ Library Management ~~~~~~")
+
+print("""
+press 1 to view all the books
+press 2 to lend the book
+press 3 to return a book
+press 4 to check all the lended books""")
+
+choice = int(input("enter 1-4: "))
+
+if choice == 1:
+    for i,j in books.items():
+        print(i,"=",j)
+
+elif choice == 2:
+    name = input("enter name: ")
+    book_req = input("enter the name of the book which is req: ").lower()
+    if books[book_req] == 0:
+        print("books are not available")
+    else:
+        books[book_req] = books[book_req]-1
+    lended_books[name] = book_req
+
+
+elif choice == 3:
+    name = input("enter name: ")
+    book_return = input("enter the name of the book which is req: ").lower()
+    if name is lended_books.keys():
+        if book_return ==lended_books[name]:
+            books[book_return] = books[book_return] + 1
+
+print(lended_books)
+print(books)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# score = 0
+# def game():
+#     global score
+#     score = 3
+#     print(score)
+#
+# game()
+# print(score)
+
+
+
+
+
+
+
+
+
+
+
+#create a function to check if a number is odd or even
+
+# def number(num):
+#     if num%2==0:
+#         print("number is even")
+#     else:
+#         print("number is odd")
+#
+# a = int(input("enter number: "))
+# number(a)
+
+
+# def company(name,age):
+#     print("the name of the employee is",name,"and her age is",age)
+# company("lisa",23)
+
+
+
+# def hello():
+#     print("hello world")
+#
+# hello()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# a = [1,4,2,5,6,34,2,1,2,42,5,62,9]
+# dict = {}
+# for i in a:
+#     b = a.count(i)
+#     dict[i]=b
+#
+# print(dict)
+
+
+# john = {"maths":67,"science":77,"social studies":88,"english":85}
+
+#print(john["science"])
+# total = 0
+# for i in john.values():
+#     total+=i
+#
+# print(total)
