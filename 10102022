@@ -1,0 +1,91 @@
+# print("using for loop")
+# a = 0
+# b = 1
+# print(a)
+# print(b)
+# for i in range(2,7):
+#     c = a+b
+#     a = b
+#     b = c
+#     print(c)
+
+# def fibo(n):
+#     if n <=1:
+#         return n
+#     else:
+#         return fibo(n-1)+fibo(n-2)
+# n = 7
+#
+# for i in range(n+1):
+#     print(fibo(i))
+
+
+#recursion
+# print("by recursion")
+# def fact(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# print(fact(5))
+#
+# print ("by for loop")
+# n = 1
+# for i in range(0,5):
+#     n += n*i
+# print(n)
+
+def name():
+    pass
+
+name()
+
+
+
+
+# def name():
+#     print("hello")
+#     name()
+#
+# name()
+
+
+
+
+#lambda function
+#
+# x = lambda a: a%2
+# y = lambda a,b,c:a+b+c
+#
+# print(x(21))
+# print(y(12,23,45))
+
+
+
+
+
+#Arbitary arguments
+
+# def school(*name):
+#     print ("the name of the student is",name[1])
+#
+# school("john","david","peter")
+
+
+
+
+#
+# def rect(l,b):
+#     return "length is",l
+#
+#
+# print(rect(2,3))
+
+
+
+# def rect(l,b):
+#     print(l*b)
+#
+# rect(23,67)
+# rect(2,5)
+# rect(4,7)
