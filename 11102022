@@ -1,0 +1,84 @@
+#number guessing game
+
+#computer guess (1-100)
+#78
+#ask user to guess the number
+
+#50
+#incorrect guess
+#your number is smaller than the computer's number'
+
+
+
+
+
+
+
+
+
+# import random
+# words = ["jupiter","smartphone","saturn","oneplus","telephone"]
+# chances = 3
+# word = random.choice(words)
+# jumble = "".join(random.sample(word,len(word)))
+#
+# print("~~~~~ game of jumbled words ~~~~~")
+# while chances !=0:
+#     print("the word is",jumble)
+#     guess = input("Guess the word: ")
+#     if guess == word:
+#         print("correct answer")
+#         break
+#     else:
+#         chances -= 1
+#         print("remaining chances are",chances)
+# else:
+#     print("you lose")
+#     print("the correct word is",word)
+#
+# print("thank you for playing")
+
+
+
+
+# import random
+# word = "jupiter"
+# jumble = "".join(random.sample(word,len(word)))
+# print(jumble)
+
+
+
+
+
+# import random
+# a = [1,2,3,4,5,6]
+# random.shuffle(a)
+# print(a)
+
+
+
+
+
+# import random
+#
+# num = random.randint(1,100)
+# print(num)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import random
+#
+# coin = [1,2,3,4,5,6]
+#
+# toss = random.choice(coin)
+# print(toss)
