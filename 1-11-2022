@@ -1,0 +1,99 @@
+"""
+take input from user as a number
+display its multiplication table
+2 X 1 = 2
+2 x 2 = 4
+"""
+# import tkinter as tk
+# 
+# window = tk.Tk()
+# window.geometry("500x360")
+# window.title("hello world")
+# window.configure(background="#bd93db")
+# 
+# def clicked():
+#     a = int(e.get())
+#     for i in range(1, 11):
+#         l1 = tk.Label(window, text= a*i).place(x=400, y = 25*i)
+# 
+# l = tk.Label(window,text="Enter a number here: ").place(x = 30, y = 50)
+# e = tk.Entry(window)
+# b = tk.Button(window,text="click",command=clicked).place(x = 230, y = 80)
+# e.place(x = 200, y = 50)
+# 
+# window.mainloop()
+
+"""
+library - currencyconverter
+gui for currency converter
+"""
+
+
+
+
+
+
+
+# import tkinter as tk
+#
+# window = tk.Tk()
+# window.geometry("500x360")
+# window.title("hello world")
+# window.configure(background="#bd93db")
+# l1 = tk.Label(window,text="")
+# def clicked():
+#     a = int(e.get())
+#     l1.configure(text=a*a)
+#
+# l = tk.Label(window,text="Enter a number here: ").place(x = 30, y = 50)
+# e = tk.Entry(window)
+# b = tk.Button(window,text="click",command=clicked).place(x = 230, y = 80)
+# e.place(x = 200, y = 50)
+# l1.place(x = 250, y = 120)
+# window.mainloop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import tkinter as tk
+#
+# window = tk.Tk()
+# window.geometry("500x360")
+# window.title("hello world")
+# window.configure(background="#bd93db")
+#
+# def clicked():
+#     label = tk.Label(window,text="Wscubetech").pack()
+#
+# b = tk.Button(window,text="click",command=clicked).pack()
+# window.mainloop()
+
+
+
+
+
+
+
+
+# import tkinter as tk
+#
+# window = tk.Tk()
+# window.geometry("500x360")
+# window.title("hello world")
+# window.configure(background="#bd93db")
+#
+# l = tk.Label(window,text="this is my first GUI Application",bg = "black", fg= "purple",font="Times 24 italic").pack()
+# l1 = tk.Label(window,text="Thank You").pack(anchor="nw")
+# l2 = tk.Label(window,text="Thank You").place(x = 200, y = 100)
+# window.mainloop()
